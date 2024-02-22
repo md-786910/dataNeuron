@@ -1,0 +1,42 @@
+.addCount {
+    background-color: rgb(165, 255, 225);
+}
+
+.updateCount {
+    background-color: rgb(173, 200, 250);
+}
+
+.todoCount {
+    background-color: rgb(254, 160, 160);
+}
+
+.tableTodo {
+    border-radius: 6px;
+}
+
+.addCount,
+.updateCount,
+.todoCount {
+    padding: 3rem;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addCount,
+.updateCount,
+h4 {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.addCount,
+.updateCount,
+span {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.mtTop {
+    margin-top: 5rem;
+}
