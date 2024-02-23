@@ -28,9 +28,9 @@ function Task2() {
         });
       }
       if (response.status === 201) {
-        navigate("/")
-
+        alert("Task created/updated successfully")
       }
+      navigate("/")
       setTask("");
     } catch (error) {
       alert(error?.response?.data?.message || error?.message)
