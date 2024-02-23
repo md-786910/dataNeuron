@@ -27,12 +27,11 @@ function Task2() {
           task: task,
         });
       }
-      console.log(response)
       if (response.status === 201) {
-        alert(response?.data?.data?.message)
+        navigate("/")
+
       }
       setTask("");
-      navigate("/")
     } catch (error) {
       alert(error?.response?.data?.message || error?.message)
 
